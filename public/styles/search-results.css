@@ -1,13 +1,18 @@
 @charset "UTF-8";
 
+body {
+    background-color: white;
+}
+
 body::after {
     content: "";
-    position: fixed;
-    background: white;
+    position: absolute;
+    background: #f0f0f5;
     left: 0;
-    top: 270px;
+    top: 0;
     right: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
 
