@@ -1,5 +1,5 @@
 {
-  "name": "NLW",
+  "name": "nlw",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
@@ -10,9 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/SamuelGSouza/Ecoleta.git"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "Samuel de Souza Gomes",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SamuelGSouza/Ecoleta/issues"
   },
@@ -24,5 +26,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.19.0"
   }
 }

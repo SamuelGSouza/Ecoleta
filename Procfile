@@ -1,1 +1,1 @@
-web: /src/views/index.html
+web: npm start

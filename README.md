@@ -16,7 +16,7 @@ Após cadastrar um ponto de coleta uma mensagem de sucesso aparecerá e você se
 ##### Como usar: #####
 
 A aplicação utiliza um servidor local na porta: 3000. E para ligá-lo basta executar o seguinte comando:
-  # - $ npm start
+  # $ npm start
 
 Em seguida abra seu navegador e acesse seu localhost na porta 3000:
-  # - localhost:3000
+  # localhost:3000
