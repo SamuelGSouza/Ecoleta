@@ -1,5 +1,8 @@
 const express = require("express")
 const server = express()
+const cors = require("cors")
+
+const app = express()
 
 // pegar o banco de dados
 const db = require("./database/db")
@@ -17,6 +20,10 @@ nunjucks.configure("src/views", {
     express: server,
     noCache: true
 })
+
+
+app.use(cors())
+
 
 // configurar caminhos da app
 // página inicial
@@ -98,4 +105,4 @@ server.get("/search", (require, response) => {
 })
 
 // ligar o servidor
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
