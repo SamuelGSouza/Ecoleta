@@ -2,8 +2,6 @@ const express = require("express")
 const server = express()
 const cors = require("cors")
 
-const app = express()
-
 // pegar o banco de dados
 const db = require("./database/db")
 
@@ -22,7 +20,7 @@ nunjucks.configure("src/views", {
 })
 
 
-app.use(cors())
+server.use(cors())
 
 
 // configurar caminhos da app
