@@ -1,6 +1,7 @@
 const express = require("express")
-const server = express()
 const cors = require("cors")
+
+const server = express()
 
 // pegar o banco de dados
 const db = require("./database/db")
